@@ -23,7 +23,7 @@ import cn.rcddup.algorithm.common.ArrayUtils;
  */
 public class TestDemo {
 	public static void main(String[] args) throws Exception {
-		int[] arr = ArrayUtils.randomArray(10); // 产生指定长度的数组
+		int[] arr = ArrayUtils.randomArray(10000); // 产生指定长度的数组
 		ArrayUtils.printArray(arr); // 打印数组
 		long start = System.currentTimeMillis(); // 计算排序开始时间
 

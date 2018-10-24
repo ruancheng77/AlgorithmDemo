@@ -25,7 +25,7 @@ import cn.rcddup.algorithm.common.ArrayUtils;
  */
 public class TestDemo {
 	public static void main(String[] args) throws Exception {
-		int[] arr = ArrayUtils.randomArray(10000);
+		int[] arr = ArrayUtils.randomArray(10);
 		ArrayUtils.printArray(arr);
 		long start = System.currentTimeMillis(); // 计算排序开始时间
 
